@@ -1,23 +1,49 @@
+p,
+.card-title,
+.banner-heading,
+.price,
+a,
+.h1,
+h3{
+    letter-spacing: .2px;
+    word-spacing: 1px;
+}
 
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* navbar */
+
+.nav-container{
+    margin-bottom: 100px;
+}
 
 .logo-img{
     padding: 0 10px;
 }
 
-.slider-container,
-.subscribe-container{
+
+
+/* navbar */
+
+/* slider */
+
+.slider-container{
     background-color: #FEEAE9;
     border-radius: 10px;
-    margin: 100px auto;
+    margin-bottom: 100px;
 }
 
 .price{
     color: #FF1E76;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .banner-heading{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .banner-img-container{
@@ -27,6 +53,29 @@
 .banner-info{
     padding: 50px;
 }
+
+.banner-info p{
+    max-width: 550px;
+
+}
+
+.buy-btn{
+    background-image: linear-gradient(#FF4C93,#FF1E76);
+    color: white;
+    padding: 8px 25px;
+    border-radius: 9px;
+}
+
+
+
+/* slider */
+
+/* catagories */
+
+.catagory-img{
+    height: 120px;
+}
+
 
 .watch-col,
 .bag-col,
@@ -52,6 +101,17 @@
     margin-bottom: 50px;
 }
 
+
+.h1{
+    padding: 10px;
+}
+
+
+
+/* catagories */
+
+/* shoe & backpack */
+
 .section-heading{
     padding-bottom: 10px;
 }
@@ -61,27 +121,24 @@
     border-radius: 10px;
 }
 
+.btn-container{
+    padding: 16px;
+}
+
 .shoe-container,
 .bag-container{
     margin-bottom: 100px;
 }
 
-
-.h1{
-    padding: 10px;
+.fas{
+    font-size: 11px;
+    padding-right: 1px;
 }
 
-.buy-btn{
-    background-image: linear-gradient(#FF4C93,#FF1E76);
-    color: white;
-    padding: 8px 25px;
-    border-radius: 5px;
-    font-size: 20px;
-}
 
-.btn-container{
-    padding: 16px;
-}
+/* shoe & backpack */
+
+/* subscribe */
 
 .subscribe-content p{
     font-weight: 600;
@@ -92,3 +149,68 @@
     border-radius: 5px;
     border: 1px solid black;
 }
+
+
+
+.subscribe-container{
+    background-color: #FEEAE9;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+
+
+
+/* subscribe */
+
+/* ------------------------------------------------mobile responsive--------------------------------------*/
+@media only screen and (max-width: 688px) {
+    .price{
+        color: #FF1E76;
+        font-size: 2rem;
+    }
+    .nav-container{
+        background-color: #F8F9FA;
+    }
+    
+    .banner-heading{
+        font-size: 2rem;
+    }
+    .buy-btn{
+        background-image: linear-gradient(#FF4C93,#FF1E76);
+        color: white;
+        padding: 5px 20px;
+        border-radius: 9px;
+        font-size: 16px;
+    }
+    .section-heading{
+        padding-bottom: 15px;
+        font-size: 30px;
+    }
+
+    .catagory-img-container{
+        justify-content: center;
+    }
+
+    .catagory-img{
+        height: 120px;
+    }
+
+    .h1{
+        font-size: 35px;
+    }
+
+    .watch-col{
+        justify-content: center;
+    }
+    /* .banner-img-container{
+        padding:0;
+    } */
+
+    .banner-info{
+        padding-bottom: 0px;
+    }
+    
+    
+}
+/* ------------------------------------------------mobile responsive--------------------------------------*/
