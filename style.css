@@ -73,7 +73,7 @@ a{
 /* catagories */
 
 .catagory-img{
-    height: 120px;
+    width: 100%;
 }
 
 
@@ -155,7 +155,7 @@ a{
 .subscribe-container{
     background-color: #FEEAE9;
     border-radius: 10px;
-    margin: 100px auto;
+    margin-bottom: 100px;
 }
 
 
@@ -168,9 +168,6 @@ a{
     .price{
         color: #FF1E76;
         font-size: 2rem;
-    }
-    .nav-container{
-        background-color: #F8F9FA;
     }
     
     .banner-heading{
@@ -188,12 +185,8 @@ a{
         font-size: 30px;
     }
 
-    .catagory-img-container{
-        justify-content: center;
-    }
-
     .catagory-img{
-        height: 120px;
+        width: 100%;
     }
 
     .h1{
@@ -206,6 +199,10 @@ a{
     /* .banner-img-container{
         padding:0;
     } */
+
+    .banner-img{
+        width: 100%;
+    }
 
     .banner-info{
         padding-bottom: 0px;
