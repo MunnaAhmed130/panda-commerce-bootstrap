@@ -165,25 +165,6 @@ a{
 /* subscribe */
 
 /* ------------------------------------------------mobile responsive--------------------------------------*/
-@media only screen and (max-width:340px){
-    /* .banner-img-tv{
-        padding-top: 24px;
-    } */
-
-    .tv-banner-info p{
-        padding-bottom: 24px;
-    }
-}
-
-@media only screen and (min-width:393px) and (max-width:430px){
-    .banner-img-tv{
-        padding-top: 24px;
-    }
-}
-
-@media only screen and (min-width:431px) and (max-width:;){
-    
-}
 
  @media only screen and (max-width: 576px) {
 
@@ -236,6 +217,40 @@ a{
     
     
 } 
+@media only screen and (max-width:340px){
+    /* .banner-img-tv{
+        padding-top: 24px;
+    } */
+
+    .tv-banner-info p{
+        padding-bottom: 24px;
+    }
+}
+
+@media only screen and (min-width:393px) and (max-width:430px){
+    .tv-banner-info p{
+        padding-bottom: 24px;
+    }
+}
+
+@media only screen and (min-width:431px) and (max-width:447px){
+    .banner-heading-headphone,
+    .banner-heading-xbox{
+        padding-bottom: .9rem;
+    }
+}
+
+@media only screen and (min-width:448px) and (max-width:464px){
+    .tv-banner-info p{
+        padding-bottom:1.5rem;
+    }
+
+    .x-box-banner-info p{
+        margin-bottom: 1.5rem;
+    }
+
+}
+
 /* ------------------------------------------------mobile responsive--------------------------------------*/
 
 @media only screen and (min-width:577px) and (max-width:992px){
