@@ -1,4 +1,4 @@
-p,
+/* p,
 .card-title,
 .banner-heading,
 .price,
@@ -7,7 +7,7 @@ a,
 h3{
     letter-spacing: .2px;
     word-spacing: 1px;
-}
+} */
 
 
 a{
@@ -18,7 +18,7 @@ a{
 /* navbar */
 
 .nav-container{
-    margin-bottom: 100px;
+    margin-bottom: 4em;
 }
 
 .logo-img{
@@ -34,36 +34,37 @@ a{
 .slider-container{
     background-color: #FEEAE9;
     border-radius: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 6em;
 }
 
 .price{
     color: #FF1E76;
-    font-size: 2.5rem;
+    font-size: 2.8em;
 }
 
 .banner-heading{
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .banner-img-container{
-    padding: 20px;
+    padding:1.3rem;
 }
 
 .banner-info{
     padding: 50px;
 }
 
-.banner-info p{
+/* .banner-info p{
     max-width: 550px;
 
-}
+} */
 
 .buy-btn{
     background-image: linear-gradient(#FF4C93,#FF1E76);
     color: white;
     padding: 8px 25px;
     border-radius: 9px;
+    font-size: 20px;
 }
 
 
@@ -98,7 +99,7 @@ a{
 }
 #catagories{
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 3.125em;
 }
 
 
@@ -164,7 +165,19 @@ a{
 /* subscribe */
 
 /* ------------------------------------------------mobile responsive--------------------------------------*/
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width:340px){
+    .banner-img-tv{
+        padding-top: 24px;
+    }
+}
+
+ @media only screen and (max-width: 576px) {
+
+    /* .slider-container{
+        height: 650px;
+    } */
+
+    
     .price{
         color: #FF1E76;
         font-size: 2rem;
@@ -186,7 +199,7 @@ a{
     }
 
     .catagory-img{
-        width: 100%;
+        width: 120px;
     }
 
     .h1{
@@ -196,18 +209,119 @@ a{
     .watch-col{
         justify-content: center;
     }
-    /* .banner-img-container{
-        padding:0;
+    .banner-img-container{
+        padding-inline: 50px;
+    }
+
+
+
+    .banner-info{
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    
+    
+} 
+/* ------------------------------------------------mobile responsive--------------------------------------*/
+
+@media only screen and (min-width:577px) and (max-width:992px){
+    /* .slider-container{
+        height: 350px;
     } */
 
+    .price{
+        color: #FF1E76;
+        font-size: 2rem;
+    }
+    
+    .banner-heading{
+        font-size: 2rem;
+    }
+    .buy-btn{
+        background-image: linear-gradient(#FF4C93,#FF1E76);
+        color: white;
+        padding: 5px 20px;
+        border-radius: 9px;
+        font-size: 16px;
+    }
+    .section-heading{
+        padding-bottom: 15px;
+        font-size: 30px;
+    }
+
+    .catagory-img{
+        width: 100px;
+    }
+
+    .h1{
+        font-size: 35px;
+    }
+
+    .watch-col{
+        justify-content: center;
+    }
+
+    .tv-banner-info p{
+        padding-bottom: 24px;
+    }
+    .banner-img-container{
+        padding: 20px;
+    }
+
     .banner-img{
-        width: 100%;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width:993px) and (max-width:1312px){
+    /* .slider-container{
+        height: 350px;
+    } */
+
+
+
+    .price{
+        color: black;
+        font-size: 2.5rem;
+    }
+    
+    .banner-heading{
+        font-size: 2rem;
+    }
+    .buy-btn{
+        background-image: linear-gradient(#FF4C93,#FF1E76);
+        color: white;
+        padding: 5px 20px;
+        border-radius: 9px;
+        font-size: 16px;
+    }
+    .section-heading{
+        padding-bottom: 15px;
+        font-size: 30px;
+    }
+
+    .catagory-img{
+        width: 120px;
+    }
+
+    .h1{
+        font-size: 35px;
+    }
+
+    .watch-col{
+        justify-content: center;
+    }
+    .banner-img-container{
+        padding: 20px;
+    }
+
+    .banner-img{
+        width: 50%;
     }
 
     .banner-info{
+        padding: 50px;
         padding-bottom: 0px;
     }
-    
-    
-}
-/* ------------------------------------------------mobile responsive--------------------------------------*/
+} 
